@@ -69,12 +69,18 @@ body {
   line-height: 16px;
 }
 .subtitle-project {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
+  position: absolute;
+    width: 322px;
+    height: 36px;
+    left: 639px;
+    top: 1010px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
   color: var(--title-text-color);
@@ -91,10 +97,17 @@ body {
   line-height: 19px;
 }
 .project .text {
-  color: #757575;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px 60px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+  
+    letter-spacing: 0.03em;
+  
+    color: var(--text-main-color);
 }
 
 .special .text {
